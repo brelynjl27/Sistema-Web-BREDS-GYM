@@ -7,7 +7,7 @@
 }
 
 .hero-banner {
-  background-image: url('src/img/gimm.jpg'); /* ⚠️ reemplaza con tu imagen en /public */
+  background-image: url('src/img/gimm.jpg'); 
   background-size: cover;
   background-position: center;
   height: 70vh;
