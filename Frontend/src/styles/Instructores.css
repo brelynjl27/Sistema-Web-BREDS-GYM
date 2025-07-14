@@ -1,0 +1,28 @@
+.instructores-container {
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+  background-color: #181818;
+}
+
+.instructor-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.instructor-card {
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(255, 26, 75, 0.2);
+  border-left: 4px solid #ff1a4b;
+  transition: transform 0.2s ease;
+}
+
+.instructor-card:hover {
+  transform: scale(1.05);
+}
